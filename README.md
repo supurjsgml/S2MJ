@@ -4,6 +4,8 @@ Spring Service Mapper method to MyBatis XML mapper configuration jumper for VS C
 
 VS Code에서 Spring Java Mapper 메서드 호출/선언부와 MyBatis XML 매퍼 설정 사이의 상호 이동 및 참조 탐색을 지원하는 확장 프로그램입니다.
 
+![S2MJ Demo](sample.gif)
+
 ---
 
 ## English
