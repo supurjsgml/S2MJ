@@ -5,6 +5,10 @@
   "version": "0.1.0",
   "publisher": "supurjsgml",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/supurjsgml/S2MJ.git"
+  },
   "icon": "logo.png",
   "engines": {
     "vscode": "^1.80.0"
