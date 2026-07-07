@@ -4,6 +4,7 @@
   "description": "%s2mj.description%",
   "version": "0.1.0",
   "publisher": "supurjsgml",
+  "license": "MIT",
   "icon": "logo.png",
   "engines": {
     "vscode": "^1.80.0"

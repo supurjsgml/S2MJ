@@ -3,5 +3,6 @@
 tsconfig.json
 deploy.bat
 src/**
+sample/**
 sample.gif
 
