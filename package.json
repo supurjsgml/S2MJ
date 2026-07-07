@@ -1,0 +1,53 @@
+{
+  "name": "s2mj",
+  "displayName": "%s2mj.displayName%",
+  "description": "%s2mj.description%",
+  "version": "0.1.0",
+  "publisher": "supurjsgml",
+  "icon": "logo.png",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "s2mj.jump",
+        "title": "%s2mj.command.title%"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "s2mj.jump",
+        "key": "alt+j",
+        "mac": "alt+j",
+        "when": "editorTextFocus && editorLangId == java"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "s2mj.jump",
+          "when": "editorLangId == java",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.80.0",
+    "@types/node": "20.x",
+    "typescript": "^5.3.3"
+  }
+}

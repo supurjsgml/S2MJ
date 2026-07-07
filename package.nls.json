@@ -1,0 +1,5 @@
+{
+  "s2mj.displayName": "S2MJ (Service to MyBatis Jump)",
+  "s2mj.description": "Spring Service Mapper method to MyBatis XML mapper configuration jumper",
+  "s2mj.command.title": "Jump to MyBatis XML (S2MJ)"
+}

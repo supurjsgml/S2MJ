@@ -1,0 +1,5 @@
+{
+  "s2mj.displayName": "S2MJ (Service to MyBatis Jump)",
+  "s2mj.description": "스프링 서비스 및 매퍼 메서드에서 마이바티스 XML 매퍼 설정으로의 이동을 지원합니다.",
+  "s2mj.command.title": "MyBatis XML로 이동 (S2MJ)"
+}
